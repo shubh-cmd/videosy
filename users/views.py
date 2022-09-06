@@ -54,7 +54,6 @@ class RegisterView(APIView):
             Kindly use this OTP to complete sign up.
 
             Thanks!
-            Liiia Team
             """,
             from_email='shubham0af024@gmail.com',
             recipient_list=[email],
@@ -154,7 +153,6 @@ class ForgotPasswordView(APIView):
             Kindly use this OTP to reset password.
 
             Thanks!
-            Liiia Team
             """,
             from_email='shubham0af024@gmail.com',
             recipient_list=[email],
