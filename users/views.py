@@ -156,7 +156,7 @@ class ForgotPasswordView(APIView):
             Thanks!
             Liiia Team
             """,
-            from_email='shubham0af24@gmail.com',
+            from_email='shubham0af024@gmail.com',
             recipient_list=[email],
             fail_silently=False
         )
